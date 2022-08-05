@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: ''
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  mail:
+    host: smtp.gmail.com
+    username: zenxldemo@gmail.com
+    password: jhufqshagfrcsgwz
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+            required: true
+          timeout: 5000
+          writetimeout: 5000
+
+item:
+    upload: C:\zenxl-files\item
+    
+import:
+    upload: C:\zenxl-files\import
+    
+export:
+    upload: C:\zenxl-files\export 

@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "item.upload",
+    "type": "java.lang.String",
+    "description": "A description for 'item.upload'"
+  },
+  {
+    "name": "import.upload",
+    "type": "java.lang.String",
+    "description": "A description for 'import.upload'"
+  },
+  {
+    "name": "export.upload",
+    "type": "java.lang.String",
+    "description": "A description for 'export.upload'"
+  }
+]}
